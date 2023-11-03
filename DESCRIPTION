@@ -1,14 +1,15 @@
 Package: test
 Title: This Is A Test Package
-Version: 0.0.0.9000
+Version: 0.0.1
 Authors@R: 
-    person("Ana", "Stanciu", , "stanciua@mcmaster.ca", role = c(Author),
-           comment = c(ORCID))
+    person(given = "Ana", family = "Stanciu", email = "stanciua@mcmaster.ca", role = c("aut", "cre"))
 Description: This package will include raw data from a paper describing women with temporomandibular disorders. This was an untargeted proton nuclear magnetic resonance spectroscopy-based metabolomics study. The group used saliva as their sample.
-License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
-    license
+License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.2.3
 URL: https://github.com/stanciua19/test
 BugReports: https://github.com/stanciua19/test/issues
+Depends: 
+    R (>= 2.10)
+LazyData: true
